@@ -5,7 +5,7 @@ import dayjs from 'dayjs';
 const localeMap = [];
 
 const files = await readdir("./locales")
-const headers = {key:'key', 'zh-CN.js':'中文', 'vn.js':'越南'}
+const headers = {key:'key', 'zh-cn.js':'中文', 'vi-vn.js':'越南'}
 
 const getLocaleModule = async(path) => {
 	return await import(path)

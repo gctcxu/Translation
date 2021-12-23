@@ -1,6 +1,6 @@
 /locales/
 /output/
-
+/excel/
 /node_modules/
 
 package-lock.json
